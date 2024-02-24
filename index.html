@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta author="Pía Carreño">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1d13ec95ab.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Iguana</title>
 </head>
+
 <body>
     <header>
-        <h1>Iguana</h1>
+        <h1>IGUANAS</h1>
+        <figure>
+            <img src="assets/img/bg-header.jpg" alt="Iguana" width="727px">
+        </figure>
     </header>
     <main>
-        <figure>
-            <img src="assets/img/bg-header.jpg" alt="Iguana">
-        </figure>
-
-        <section>
-            <p>
-                La iguana es un reptil perteneciente a la familia Iguanadiae.
-                Su tamaño está entre los 15 cm hasta los 2 metros de largo y 
-                puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen 
-                una coloración con tonos verdes y al ir madurando predomina
-                un color grisáceo con crestas o espinas en su espalda.
-            <hr>
-                La alimentación de la iguana va variando según su etapa de
-                vida, pero la mayor parte de sus años son herbívoras.
-                Viven en lugares tropicales con mucha vegetación y es un 
-                animal que puede ser domesticado.
-            </p>
+        <section class="desc-section">
+            <div class="description-paragraph">
+                <p>
+                    La iguana es un reptil perteneciente a la familia Iguanadiae.
+                    Su tamaño está entre los 15 cm hasta los 2 metros de largo y
+                    puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen
+                    una coloración con tonos verdes y al ir madurando predomina
+                    un color grisáceo con crestas o espinas en su espalda.
+                    <hr>
+                    La alimentación de la iguana va variando según su etapa de
+                    vida, pero la mayor parte de sus años son herbívoras.
+                    Viven en lugares tropicales con mucha vegetación y es un
+                    animal que puede ser domesticado.
+                </p>
+            </div>
             <img src="./assets/img/iguana-1.jpg" alt="Iguana verde">
         </section>
 
-        <section>
-            <h2>CARACTERÍSTICAS</h2>
-            <img>
-            <h3>Tercer ojo</h3>
-            <img>
-            <h3>Pacíficas</h3>
-            <img>
-            <h3>Cambian de color</h3>
-        </section>
 
-        <section>
+        <section id="section-color">
+            <h2>CARACTERÍSTICAS</h2>
+
+            <div class="icons">
+                <div>
+                    <i class="far fa-eye"></i>
+                    <h3>Tercer ojo</h3>
+                </div>
+                <div>
+                    <i class="fa fa-hand-peace"></i>
+                    <h3>Pacíficas</h3>
+                </div>
+                <div>
+                    <i class="fa fa-paint-brush"></i>
+                    <h3>Cambian de color</h3>
+                </div>
+        </section>
+        </div>
+
+        <section class="gallery-img">
             <figure>
                 <img src="./assets/img/iguana-2.jpg">
                 <img src="./assets/img/iguana-3.jpg">
@@ -50,10 +70,11 @@
 
     </main>
 
-    <footer>
+    <footer id="section-color">
         <p>
             Visita https://www.anipedia.net/iguanas/iguana-verde/ para conocer más.
         </p>
     </footer>
 </body>
+
 </html>
